@@ -20,7 +20,7 @@ async def awake(_, message: Message):
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
         ]
     ]
-    await message.reply_text(
+    await message.reply_photo(
         photo=START_IMG,
         caption=f"Text",
         reply_markup=InlineKeyboardMarkup(BUTTON),
