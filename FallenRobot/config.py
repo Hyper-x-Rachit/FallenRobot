@@ -2,14 +2,14 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+    API_ID = 15469484
+    API_HASH = "a4e47ac121ccd896f52fc815a9a10a8e"
 
     CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
     DATABASE_URL = ""  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ("")  # Event logs channel to note down important bot level events
+    EVENT_LOGS = ("-1001962386072")  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
 
@@ -18,7 +18,7 @@ class Config(object):
 
     SUPPORT_CHAT = "DevilsHeavenMF"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "5980016986:AAG1mUJbgvpwNKMFdEtgRFGBAaWUGAAOiLg"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
