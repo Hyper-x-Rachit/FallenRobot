@@ -94,12 +94,11 @@ buttons = [
         InlineKeyboardButton(text="❗ ʜᴇʟᴩ/ᴄᴏᴍᴍᴀɴᴅs ❗", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🧞‍♂️ ᴀʙᴏᴜᴛ 🧞‍♂️", callback_data="fallen_"),
+        InlineKeyboardButton(text="🧞‍♂️ ᴜᴘᴅᴀᴛᴇ 🧞‍♂️", url=f"https://t.me/samplespace_py"),
         InlineKeyboardButton(text="⭕ sᴜᴩᴩᴏʀᴛ ⭕", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="👥 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👥", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="👉 sᴏᴜʀᴄᴇ 👈", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
